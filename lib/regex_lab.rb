@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.scan(/\(?\d\d\d)?\s?\d\d\d-?\s?\d\d\d\d/).any? ? true : false
+  phone.scan(/\(?\d\d\d\)?\s?\d\d\d-?\s?\d\d\d\d/).any? ? true : false
 end
